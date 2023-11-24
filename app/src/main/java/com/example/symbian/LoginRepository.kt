@@ -10,7 +10,7 @@ class LoginRepository {
 
     suspend fun loginUser(email: String, senha: String, foto: String): Response<JsonObject> {
         val requestBody = JsonObject().apply {
-            addProperty("email", email)
+            addProperty("login", email)
             addProperty("senha", senha)
             addProperty("imagem", foto)
         }

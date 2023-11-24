@@ -149,7 +149,7 @@ fun LoginScreen(
             lifecycleScope.launch {
                 Log.e("teste", "${email} ${password} $url")
                 val response = responseRepository.loginUser(email, password, url)
-                Log.e("res", "$response")
+                Log.e("response-teste-debug", "$response")
 
                 if (response.isSuccessful) {
                     Toast.makeText(context, "Login com sucesso!", Toast.LENGTH_LONG).show()
@@ -241,6 +241,7 @@ fun LoginScreen(
 
             Button(
                 onClick = {
+                    Log.i("teste-para-foto", "$photoUri")
                     login(foto = photoUri!!, emailState, passwordState)
                 },
                 Modifier
