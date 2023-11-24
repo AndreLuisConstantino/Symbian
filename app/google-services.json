@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739669184548",
+    "project_id": "symbian-f378e",
+    "storage_bucket": "symbian-f378e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739669184548:android:6d38abc04b479cbf0488b1",
+        "android_client_info": {
+          "package_name": "com.example.symbian"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-OCmP2m1KGIlRvvSANX5Q8hdt5TuQImQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
